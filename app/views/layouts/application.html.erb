@@ -8,6 +8,109 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+
+    
+
+    <style>
+      
+      * {
+        /*
+        border: 1px red dashed;
+        */
+        color: rgba(255,255,255,1.0);
+      }
+      
+      html {
+        min-height:100%;
+        color: rgba(255,255,255,1.0);
+      }
+
+      body {
+          min-height:100%;
+          display: flex;
+          justify-content: center;
+          background: linear-gradient(0deg, #a79d02, #b49502, #c08e02, #cd8702, #da7d01, #e66e01, #f35601, #ff0200);
+          padding-top: 40px;
+          padding-bottom: 40px;
+          font-family: "Raleway";
+          color: rgba(255,255,255,1.0);
+      }
+      
+      .main-container {
+          max-width: 640px;
+          margin: auto;
+          flex-grow:1;
+      }
+      
+      .image {
+          display: flex;
+          justify-content: center;
+          margin-bottom: 20px;
+      }
+
+      .avatar-image {
+        width:128px;
+        height:128px;
+        object-fit: cover;
+        border-radius: 128px;
+
+      }
+
+      .name {
+          text-align:center;
+          margin-bottom: 30px;
+          font-family: "Playfair Display";
+      }
+      .social {
+          display: flex;
+          justify-content: space-around;
+          margin-bottom: 30px;
+      }
+
+      .item {
+        display: flex;
+        align-items: center;
+        background-color: rgba(112, 101, 10, 0.8);
+        margin-bottom: 20px;
+        border-radius:1000px;
+        padding: 5px;
+        padding-right: 53px;
+        box-shadow: 4px 4px 10px 0px rgba(122,32,122,0.5)
+      }
+      .links {
+          display: flex;
+          flex-direction: column;
+      }
+
+      .link-image {
+        height: 48px;
+        width: 48px;
+        border-radius: 48px;
+        object-fit: cover;
+      }
+
+      .link-text {
+        text-align: center;
+        flex-grow:1;
+      }
+
+      a {
+        color: rgba(255,255,255,1.0));
+        text-decoration: none;
+      }
+    </style>
+
+    
   </head>
 
   <body>
